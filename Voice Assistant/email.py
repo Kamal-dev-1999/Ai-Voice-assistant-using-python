@@ -3,7 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email(subject, message, to_mail, from_):
-    from_password = "fwqo idve pjyt izmr"  # This should be securely handled
+    from_password = "app password"  # This should be securely handled
 
     msg = MIMEMultipart()
     msg['From'] = from_
