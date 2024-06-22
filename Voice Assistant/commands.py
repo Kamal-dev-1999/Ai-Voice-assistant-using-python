@@ -74,7 +74,7 @@ def process_command(command):
         speak(news_report)
         
     elif "send email" in command:
-        from_ = "ajeet1973.at@gmail.com"
+        from_ = "sender's email"
         speak("To whom should I send the email?")
         with sr.Microphone() as source:
             audio = recognizer.listen(source)
